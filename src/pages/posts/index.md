@@ -11,6 +11,6 @@ description: Just a Hello World Post!
 
 <Cool name={frontmatter.name} href="https://twitter.com/n_moore" client:load />
 
-This is so cool!
+Not sure what the element above this is... it says `<Cool .../>`, but what does that even mean (component, and if so from where!?
 
 Do variables work {frontmatter.value * 2}?
