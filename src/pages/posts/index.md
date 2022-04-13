@@ -11,6 +11,16 @@ description: Just a Hello World Post!
 
 <Cool name={frontmatter.name} href="https://twitter.com/n_moore" client:load />
 
-Not sure what the element above this is... it says `<Cool .../>`, but what does that even mean (component, and if so from where!?
+This is so cool!
 
 Do variables work {frontmatter.value * 2}?
+
+```javascript
+// Example JavaScript
+
+const x = 7;
+function returnSeven() {
+  return x;
+}
+
+```
