@@ -1,0 +1,20 @@
+---
+import Plausible from '../components/Plausible.astro'
+let title = 'Home | Philificent.com';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title}</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <Plausible />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <slot></slot>
+    </main>
+    <footer></footer>
+  </body>
+</html>
