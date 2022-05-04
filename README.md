@@ -1,8 +1,19 @@
-# Welcome to [Astro](https://astro.build)
+# Astro Starter Kit: Blog
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)
+```
+npm init astro -- --template blog
+```
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+Features:
+
+- ✅ SEO-friendly setup with canonical URLs and OpenGraph data
+- ✅ Full Markdown support
+- ✅ RSS 2.0 generation
+- ✅ Sitemap.xml generation
 
 ## 🚀 Project Structure
 

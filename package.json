@@ -1,5 +1,5 @@
 {
-  "name": "@example/starter",
+  "name": "@example/blog",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,8 +9,10 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/vue": "^0.1.1",
-    "astro": "^1.0.0-beta.10",
-    "vue": "^3.2.30"
+    "@astrojs/preact": "^0.1.2",
+    "astro": "^1.0.0-beta.20"
+  },
+  "dependencies": {
+    "preact": "^10.7.1"
   }
 }
