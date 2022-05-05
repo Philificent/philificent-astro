@@ -10,6 +10,7 @@ export interface Props {
 }
 
 const { title, author, publishDate, heroImage, alt } = Astro.props;
+let formatDate = new Date(publishDate).toDateString();
 ---
 
 <div class="layout">
@@ -17,9 +18,9 @@ const { title, author, publishDate, heroImage, alt } = Astro.props;
 		<div>
 			<header>
 				{heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
-				<p class="publish-date">{publishDate}</p>
+				<p class="publish-date">{formatDate}</p>
 				<h1 class="title">{title}</h1>
-				<Author name="@FredKSchott" href="https://twitter.com/FredKSchott" />
+				<!-- <Author name="@FredKSchott" href="https://twitter.com/FredKSchott" /> -->
 			</header>
 			<main>
 				<slot />
